@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+const import2require = require('../lib/main.js');
+(async function() {
+  await import2require.run(process.argv.slice(2));
+})();
