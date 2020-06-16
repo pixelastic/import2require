@@ -1,4 +1,7 @@
 const config = require('aberlaas/lib/configs/husky.js');
 module.exports = {
-  ...config,
+  hooks: {
+    ...config.hooks,
+    'prepare-commit-msg': 'yarn run husky:prepare-commit-msg',
+  },
 };
