@@ -1,8 +1,6 @@
 {
   "devDependencies": {
-    "aberlaas": "pixelastic/aberlaas",
-    "commitizen": "4.1.2",
-    "cz-conventional-changelog": "3.2.0"
+    "aberlaas": "pixelastic/aberlaas"
   },
   "description": "Convert `import foo from 'foo'` to `const foo = require('foo')` from the commandline",
   "bin": {
@@ -17,7 +15,6 @@
   "scripts": {
     "ci": "./scripts/ci",
     "husky:precommit": "./scripts/husky-precommit",
-    "husky:prepare-commit-msg": "./scripts/husky-prepare-commit-msg",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
@@ -28,10 +25,5 @@
   "dependencies": {
     "firost": "1.5.1",
     "golgoth": "1.2.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
