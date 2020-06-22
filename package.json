@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "aberlaas": "1.6.4"
+    "aberlaas": "1.7.0"
   },
   "description": "Convert `import foo from 'foo'` to `const foo = require('foo')` from the commandline",
   "bin": {
