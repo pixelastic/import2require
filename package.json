@@ -21,7 +21,7 @@
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
   },
-  "version": "0.1.4",
+  "version": "0.1.5",
   "dependencies": {
     "firost": "1.5.1",
     "golgoth": "1.2.0"
